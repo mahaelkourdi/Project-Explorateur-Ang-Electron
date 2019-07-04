@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0
+	box-sizing:border-box;
+}
+
+header {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+	-webkit-app-region:drag;
+	background: #BDC6C4;
+}
+
+.option{
+	padding: 10px 25px;
+	font-size: 25px;
+	cursor: pointer;
+	color :white;
+	-webkit-app-region: no-drag;
+}
+
+.option:hover{
+	background: #91C7B9;
+}
+
+#preview {
+	margin-top: 500px;
+	margin-left: 250px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Cairo%27);
